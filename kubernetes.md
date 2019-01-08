@@ -43,10 +43,6 @@ kubectl get node
 kubectl label node gke-quyet-default-pool-799a436e-b4p7 use storageType=ssd
 kubectl describe node gke-quyet-default-pool-799a436e-g7rl
 ```
-## Auth registry gcr 
-```
-docker login -u _json_key -p "$(cat login.json)" https://asia.gcr.io/
-```
 ## Kubectl get secret
 ```
 kubectl get secret
