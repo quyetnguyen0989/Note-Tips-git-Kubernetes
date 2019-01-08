@@ -14,7 +14,10 @@ gcloud container clusters get-credentials quyet --zone=asia-southeast1-a
 kubectl apply -f./deployment.yaml
 kubect expose deployment tomcat-deployment --type=NodePort
 kubectl get pods
-
+```
+## Kubectl create serverice form file .yaml
+```
+kubectl create -f [name file yaml]
 ```
 ## Delete application:
 ```
