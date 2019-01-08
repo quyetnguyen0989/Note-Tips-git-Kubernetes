@@ -38,7 +38,7 @@ kubectl expose deployment tomcat-deployment --type=LoadBalancer --port=8080 --ta
  
 kubectl describe services tomcat-load-balancer
 ```
-## roullout and email check history change
+## Roullout and email check history change
 ```
 kubectl rollout status deployment tomcat-deployment
 kubectl set image deployment/tomcat-deployment tomcat=tomcat:9.0.1
