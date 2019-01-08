@@ -63,6 +63,11 @@ kubectl get secrets [name of sceret] -o yaml
 echo -n [password] | base64 -d
 ```
 
+## Kubectl describe 
+```
+kubectl describe service [name services]
+```
+
 ## Fixed error can't create pod
 ```
 kubectl create serviceaccount --namespace kube-system tiller
