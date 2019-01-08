@@ -1,4 +1,13 @@
 # Tips-Kubectl
+## Check project:
+```
+gcloud config set-value project
+gcloud info
+```
+## Copy use gcloud:
+```
+gcloud beta compute scp --recurse [file] [name vm]:[desnitaion] --internal-ip | if it internal-ip
+```
 ## basic
 ```
 kubectl get pod ..
@@ -15,9 +24,9 @@ kubectl apply -f./deployment.yaml
 kubect expose deployment tomcat-deployment --type=NodePort
 kubectl get pods
 ```
-## Kubectl create serverice form file .yaml
+## Kubectl create deployment
 ```
-kubectl create -f [name file yaml]
+kubectl create deployment ubuntu --image=ngin
 ```
 ## Delete application:
 ```
@@ -46,6 +55,7 @@ kubectl get node
 kubectl label node gke-quyet-default-pool-799a436e-b4p7 use storageType=ssd
 kubectl describe node gke-quyet-default-pool-799a436e-g7rl
 ```
+
 ## Kubectl get secret
 ```
 kubectl get secret
