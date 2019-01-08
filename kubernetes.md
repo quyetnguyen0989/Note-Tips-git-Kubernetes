@@ -26,7 +26,7 @@ kubectl get pods
 ```
 ## Kubectl create deployment
 ```
-kubectl create deployment ubuntu --image=ngin
+kubectl create deployment ubuntu --image=nginx
 ```
 ## Delete application:
 ```
