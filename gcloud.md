@@ -10,4 +10,6 @@ gcloud beta compute scp --recurse [file] [name vm]:[desnitaion] --internal-ip | 
 ```
 
 ## Example:
+```
 gcloud compute scp --recurse [instnace-name]:/home/user/montior /Users/quyet.nguyen/Downloads
+```
