@@ -4,8 +4,7 @@
 ## fish tip
  fish_config <br />
  ~/.config/fish/conf.d/google.fish <br />
-##
-Bash , can add ~/.bashrc , or ~/.zshrc
+## Bash , can add ~/.bashrc , or ~/.zshrc
 ```
 function swe() {
     case $1 in
