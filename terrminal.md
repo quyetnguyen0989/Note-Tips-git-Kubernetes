@@ -6,7 +6,7 @@
  ~/.config/fish/conf.d/google.fish <br />
 ##
 Bash , can add ~/.bashrc , or ~/.zshrc
-
+```
 function swe() {
     case $1 in
     develop)
@@ -35,3 +35,4 @@ function swe() {
                ;;
     esac;
 }
+```
