@@ -14,3 +14,12 @@ source pymienv/bin/activate
 pip freeze
 pip install jupyter
 ```
+```
+80  virtualenv -p python3 pymienv
+81  cd Desktop/
+82  source pymienv/bin/activate
+   83  pip freeze
+   84  pip install jupyter
+   85  jupyter-notebook
+   86  history
+```
