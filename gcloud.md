@@ -25,3 +25,7 @@ gcloud sql instances delete test-maser
 ## Gcloud replica:
 ```
 ```
+# Node-taints
+```
+https://cloud.google.com/kubernetes-engine/docs/how-to/node-taints
+```
