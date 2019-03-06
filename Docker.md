@@ -11,7 +11,7 @@ docker tag grafana/grafaba:5.4.2 gcr.io/[name of project]/grafana
 docker push gcr.io/[name of project]/grafana
 ```
 
-## Example push docker tu private registry
+## Example push docker to private registry
 
 ```
 1, docker push asia.gcr.io/docker-quyet/app1:app1
