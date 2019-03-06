@@ -10,3 +10,12 @@ gcloud auth configure-docker
 docker tag grafana/grafaba:5.4.2 gcr.io/[name of project]/grafana
 docker push gcr.io/[name of project]/grafana
 ```
+
+## Example push docker tu private registry
+
+```
+1, docker push asia.gcr.io/docker-quyet/app1:app1
+2, docker tag asia.gcr.io/docker-quyet/app1:app1 asia.gcr.io/docker-quyet/app1:app1
+3, docker build -t asia.gcr.io/docker-quyet/app1:app1 .
+
+```
