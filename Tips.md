@@ -8,3 +8,9 @@ bash <(curl -s https://raw.githubusercontent.com/quyetnguyen0989/sell-script-all
 
 ## Redash
 https://redash.io/help/open-source/admin-guide/google-developer-account-setup
+
+## Quit telnet
+```
+^]   ( ctrl + ] )
+close
+```
