@@ -14,3 +14,9 @@ https://redash.io/help/open-source/admin-guide/google-developer-account-setup
 ^]   ( ctrl + ] )
 close
 ```
+## Filter
+
+```
+[a-z\._]+@be.xyz
+\s+[0-9]+,1:\s+
+```
