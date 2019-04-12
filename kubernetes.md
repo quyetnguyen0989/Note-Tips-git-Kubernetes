@@ -48,6 +48,7 @@ kubectl set image deployment/tomcat-deployment tomcat=tomcat:9.0.1
 kubectl rollout status deployment tomcat-deployment
 kubectl rollout history deployment tomcat-deployment
 kubectl rollout history deployment/tomcat-deployment --revision=2
+kubectl rollout undo deployment [name deployment] --to-revision=2
 ```
 ## Label and selection nodes
 ```
