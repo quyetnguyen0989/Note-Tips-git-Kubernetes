@@ -80,3 +80,6 @@ helm init --service-account tiller --upgrade
 ```
 kubectl get nodes --no-headers | awk '{print $1}' | xargs -I {} sh -c 'echo {}; kubectl describe node {} | grep Allocated -A 5 | grep -ve Event -ve Allocated -ve percent -ve -- ; echo'
 ```
+```
+kubectl top pod --all-namespaces
+```
