@@ -90,4 +90,9 @@ kubectl get limitranges -o yaml
 kubectl edit limitranges
 ```
 
-
+# Limittranger, so that limit resource of node if use default
+```
+kubectl describe limitranges
+kubectl get limitranges -o yaml
+kubectl edit limitranges
+```
