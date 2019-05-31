@@ -29,3 +29,18 @@ gcloud sql instances delete test-maser
 ```
 https://cloud.google.com/kubernetes-engine/docs/how-to/node-taints
 ```
+# Create node pool with autosclaing , preemptible
+
+```
+gcloud container node-pools create  pool-3 \
+--cluster=default \
+--machine-type=n1-standard-2 \
+--num-nodes=2 \
+--service-account=k8s-cluster-manager@[name service]-staging.iam.gserviceaccount.com \
+--enable-autoupgrade \
+--enable-autoscaling \
+--max-nodes=6 \
+--min-nodes=2 \
+--preemptible \
+--region=asia-southeast1-a
+```
