@@ -96,7 +96,8 @@ kubectl describe limitranges
 kubectl get limitranges -o yaml
 kubectl edit limitranges
 ```
-# Config vertical pod autoscaling https://cloud.google.com/kubernetes-engine/docs/how-to/vertical-pod-autoscaling
+# Config vertical pod autoscaling 
+https://cloud.google.com/kubernetes-engine/docs/how-to/vertical-pod-autoscaling
 
 ```
 cloud beta container clusters update default --enable-vertical-pod-autoscaling
