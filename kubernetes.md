@@ -105,4 +105,9 @@ cloud beta container clusters update default --enable-vertical-pod-autoscaling
 # Delete muti pod
 ```
 k get cronjobs | grep finportal-backend | awk '{ print $1 }' | xargs -n 1 kubectl delete cronjob
+
+kubectl get job | awk '{print $1}' | xargs kubectl delete job
+
+kubectl get job | grep cluster | awk '{print $1}' | xargs kubectl delete job
 ```
+
