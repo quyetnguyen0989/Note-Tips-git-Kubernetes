@@ -111,3 +111,8 @@ kubectl get job | awk '{print $1}' | xargs kubectl delete job
 kubectl get job | grep cluster | awk '{print $1}' | xargs kubectl delete job
 ```
 
+# Stern get log service of
+```
+stern [service-name]
+stern [service-name] | grep abc
+```
