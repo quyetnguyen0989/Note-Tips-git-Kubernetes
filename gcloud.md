@@ -57,9 +57,6 @@ gcloud container node-pools create pool-2 \
 --cluster=default \
 --machine-type=n1-standard-1 \
 --num-nodes=1 \
---k8s-cluster@kazan-trading-236803.iam.gserviceaccount.com \
---addons=Istio --istio-config=auth=MTLS_PERMISSIVE \
---cluster-version=latest \
 --preemptible \
 --region=asia-southeast1-a
 ```
