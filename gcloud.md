@@ -44,3 +44,11 @@ gcloud container node-pools create  pool-3 \
 --preemptible \
 --region=asia-southeast1-a
 ```
+# Create cluster with Mlts 
+```
+gcloud beta container clusters create \
+istio-addon-cluster \
+--addons=Istio --istio-config=auth=MTLS_PERMISSIVE \
+--cluster-version=latest \
+--num-nodes=2 \
+```
