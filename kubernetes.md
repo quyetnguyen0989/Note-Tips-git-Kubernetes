@@ -116,3 +116,8 @@ kubectl get job | grep cluster | awk '{print $1}' | xargs kubectl delete job
 stern [service-name]
 stern [service-name] | grep abc
 ```
+
+##
+```
+k get svc --all-namespaces
+```
