@@ -20,3 +20,5 @@ close
 [a-z\._]+@be.xyz
 \s+[0-9]+,1:\s+
 ```
+## Upgrader terraform in macos
+mv terraform /usr/local/bin/terraform
