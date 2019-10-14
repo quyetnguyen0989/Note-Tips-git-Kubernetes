@@ -25,3 +25,7 @@ vim values.yaml
 vim Chart.yaml
 helm install --name pmm1 --set platform=kubernetes pmm-server/
 ```
+# deploy phpmyadmin with heml
+```
+helm install -name phpmyadmin --set ingress.host=[domain name],ingress.enable=true stable/phpmyadmin
+```
