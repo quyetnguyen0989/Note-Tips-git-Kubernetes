@@ -22,3 +22,9 @@ close
 ```
 ## Upgrader terraform in macos
 mv terraform /usr/local/bin/terraform
+
+## Base 64 decode and and code
+```
+echo 'ditcu' | base64
+echo 'ZGl0Y3UK' | base64 -D
+```
