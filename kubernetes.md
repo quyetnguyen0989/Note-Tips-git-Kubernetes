@@ -121,3 +121,7 @@ stern [service-name] | grep abc
 ```
 k get svc --all-namespaces
 ```
+## delete pods
+```
+for i in $(k get pods |grep be-dp-calc |awk '{print $1}');do echo $i;kubectl delete pods $i;done
+```
