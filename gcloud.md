@@ -60,3 +60,9 @@ gcloud container node-pools create pool-2 \
 --preemptible \
 --region=asia-southeast1-a
 ```
+
+# 
+```
+https://cloud.google.com/storage/docs/gsutil/commands/acl
+gsutil acl ch -r -u AllUsers:R gs://bucket/reskin/
+```
