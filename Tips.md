@@ -19,6 +19,7 @@ close
 ```
 [a-z\._]+@be.xyz
 \s+[0-9]+,1:\s+
+"quyet.nguyen0989@gmal.com",*\n 
 ```
 ## Upgrader terraform in macos
 mv terraform /usr/local/bin/terraform
