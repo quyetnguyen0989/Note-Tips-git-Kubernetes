@@ -125,3 +125,8 @@ k get svc --all-namespaces
 ```
 for i in $(k get pods |grep be-dp-calc |awk '{print $1}');do echo $i;kubectl delete pods $i;done
 ```
+## Get service account of node and cluster
+```
+gcloud container clusters describe default --zone asia-southeast1-a |grep serviceAccount
+
+```
