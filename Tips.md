@@ -30,7 +30,7 @@ echo 'ditcu' | base64
 echo 'ZGl0Y3UK' | base64 -D
 echo -n "B2EG3R4OU56P1" | base64 | for base 64 not error
 ```
-##
+## No need sudo for User
 ```
 visudo
 dev ALL=(ALL) NOPASSWD:ALL
