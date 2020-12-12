@@ -12,3 +12,6 @@ $ git branch --delete --remotes <remote>/<branch>
 $ git branch -dr <remote>/<branch> # Shorter
 $ git fetch <remote> --prune # Delete multiple obsolete tracking branches
 $ git fetch <remote> -p # Shorter
+
+## error: The following untracked working tree files would be overwritten by merge:
+git clean  -d  -f .
