@@ -130,3 +130,7 @@ for i in $(k get pods |grep be-dp-calc |awk '{print $1}');do echo $i;kubectl del
 gcloud container clusters describe default --zone asia-southeast1-a |grep serviceAccount
 
 ```
+## Restart deployment
+```
+kubectl rollout restart deployment [deployment]
+```
