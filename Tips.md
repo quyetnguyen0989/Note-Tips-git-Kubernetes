@@ -35,7 +35,7 @@ echo -n "B2EG3R4OU56P1" | base64 | for base 64 not error
 visudo
 dev ALL=(ALL) NOPASSWD:ALL
 ```
-## heck-disk-space-usage-linux-using- ncdu
+## check-disk-space-usage-linux-using- ncdu
 ```
 https://ostechnix.com/check-disk-space-usage-linux-using-ncdu/
 ```
