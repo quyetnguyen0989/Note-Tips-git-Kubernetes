@@ -66,3 +66,7 @@ gcloud container node-pools create pool-2 \
 https://cloud.google.com/storage/docs/gsutil/commands/acl
 gsutil acl ch -r -u AllUsers:R gs://bucket/reskin/
 ```
+# forward over ssh gcloud
+```
+gcloud compute ssh [vm name] -- -NL 10443:localhost:443
+```
