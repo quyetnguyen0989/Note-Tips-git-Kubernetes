@@ -134,3 +134,7 @@ gcloud container clusters describe default --zone asia-southeast1-a |grep servic
 ```
 kubectl rollout restart deployment [deployment]
 ```
+## get kong plugin
+```
+k get kongplugins.configuration.konghq.com
+```
