@@ -138,3 +138,7 @@ kubectl rollout restart deployment [deployment]
 ```
 k get kongplugins.configuration.konghq.com
 ```
+## Get RBAC
+```
+kubectl get rolebiding
+```
