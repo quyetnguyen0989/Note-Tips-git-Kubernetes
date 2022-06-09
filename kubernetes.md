@@ -140,5 +140,5 @@ k get kongplugins.configuration.konghq.com
 ```
 ## Get RBAC
 ```
-kubectl get rolebiding
+kubectl get rolebinding
 ```
